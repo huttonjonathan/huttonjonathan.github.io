@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 :root {
-  --primary-color: #9408e6;
+  --primary-color: #dc68ff;
   --dark-color: #333333;
   --light-color: #666666;
 }
@@ -50,13 +50,15 @@ a:hover {
 main {
   flex: 1;
   background-color: var(--light-color);
-  margin: 3rem 3rem;
+  margin: 2rem 1rem;
   padding: 1rem;
   border-radius: 5px;
 }
 
 .headshot {
   border-radius: 50%;
+  display: block;
+  margin: 0 auto;
 }
 
 footer {
